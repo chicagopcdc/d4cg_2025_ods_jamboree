@@ -1,0 +1,57 @@
+VARNAME	VARDESC
+SUBJECT_ID	Subject ID
+CONSORTA	Eligible for protocol
+CONSORTB	Evaluable protocol specified analyses
+CONSORTC	Induction: Included in outcome analysis
+CONSORTD	Induction: off-protocol therapy
+CONSORTE	Begin consolidation first
+CONSORTF	Begin focal radiation first
+CONSORTF1	Focal radiation: photon or proton
+CONSORTG	Consolidation first: off- protocol therapy
+CONSORTH	Focal radiation first: off protocol therapy
+CONSORTI	Consolidation first
+CONSORTI1	Radiation: photon or proton
+CONSORTI2	Radiation CSI: craniospinal irradiation
+CONSORTJ	Focal radiation first
+CONSORTK	Consolidation last: off protocol therapy
+GENDER_S	Patient sex
+AGE	Age at enrollment (months)
+AGE_GROUP	Age at enrollment category at 36 months
+AGE_CAT	Age at enrollment category at 6 and 12 months
+AGE_CAT2	Age at enrollment category at 12 and 36 months
+G1RACECAT	Race
+RACE_S	Race
+ETHNIC_S	Ethnicity
+PRIMSITE1	Primary site: categorization 1
+PRIMSITE3	Primary site: categorization 2
+PRIMSITE4	Primary site: categorization 3
+STAGE	Stage
+G1STAGE	Stage
+TMRSC	Tumor resection extent at enrollment
+RESECTION	Categorized tumor resection extent at enrollment
+IND1RPDYSDURATION	Induction cycle 1 duration (days)
+LABCSTATUS	"Indicate Laboratory studies (yes =1, no =0): Consensus ATRT Subgroup, Chromosome 22, or SMARCB1 status"
+C1	Consensus ATRT Subgroup
+C1CODE	Consensus ATRT Subgroup
+C2	Methylation CNV Chromosome 22 status
+CHRM22	Chromosome 22 status
+C3	Methylation CNV SMARCB1 status
+SMARCB1	SMARCB1 alteration status
+GERMLINE	SMARCB1 germline alteration
+MGROUP	Group molecular class
+INDUCTIONRSPEVAL	Induction response evaluated
+INDUCTIONRSP	Induction response
+ORDERTX	Order of Therapy after Induction
+EFS_TYPE	EFS event indicator including type of EFS- event
+CENSOR_EFS	EFS event status indicator.
+EFSCAT1	Timing of relapse with respect to study enrollment
+EFS	Event-free survival from enrollment (years)
+EFSPI	Event-free survival from end of induction (years)
+RLSITEST1C	Event status and location of relapse relative to site of tumor at time of enrollment
+RLSITEST1	Event status and location of relapse relative to site of tumor at time of enrollment
+CENSOR_OS	Overall survival status indicator
+OSCAT1	Timing of death with respect to study enrollment
+OS	Overall survival from enrollment (years)
+OSPI	Overall survival from end of induction (years)
+DTHCOMPLICTN	Description of complications of therapy when the death as a first event was attributed to treatment
+DTHRSN	Attribution of death as first event when the death is not treatment related

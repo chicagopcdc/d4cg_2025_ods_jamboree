@@ -1,0 +1,150 @@
+VARNAME	VARDESC
+USI	Universal Specimen Identifier (USI)
+ISPATIENTELIGIBLEBYSTUDYCHAIR	Is the patient eligible by study chair review?
+REASONINELIGIBLEBYSTUDYCHAIR	Reason not eligible by study chair review
+ISPATIENTELIGIBLEBYCENTRALREVIEW	Is the patient eligible after retrospective central review?
+REASONINELIGIBLEBYCENTRALREVIEW	Reason not eligible after retrospective central review
+SEX	Gender
+RACE	Race
+ACNS0332STRATUM	Study stratum
+MSTAGE	Metastatic stage
+AGEONSTUDY	Age at time of enrollment (in years)
+AGEATDIAGNOSIS	Age at diagnosis (in years)
+ISOTRETINOINGROUP	Isotretinoin randomization group
+CARBOPLATINGROUP	Carboplatin randomization group
+ENROLLEDPRIORTOJAN272015	"Was the patient enrolled prior to January 27, 2015?"
+LOSTTOFUBEFORE5YEARS	Was the patient lost to follow-up prior to 5 years?
+INPRIMARYSURVIVALANALYSIS	Was patient included in the primary survival analyses?
+EFS	Event-free survival (EFS) time (in days)
+EFSCEN	EFS censor variable
+OS	Overall survival (OS) duration (in days)
+OSCEN	OS censor variable
+INMOLECULARSUBGROUPANALY SIS	Was patient included in molecular subgroup analyses?
+REASONNOTINMOLECULARSUBGROUPANAL	Reason patient was not included in molecular subgroup analyses
+SUBGROUP	Methylation subgroup
+INNGSCOHORT_FORTABLE3C	Was patient part of the next-generation sequencing (NGS) cohort?
+NGS_CTNNB1	CTNNB1 mutation
+NGS_DDX3X	DDX3X mutation
+NGS_PTCH1	PTCH1 mutation
+NGS_TP53	TP53 mutation
+NGS_SMARCA4	SMARCA4 mutation
+NGS_KBTBD4	KBTBD4 mutation
+NGS_MYCN	MYCN mutation
+NGS_GLI2	GLI2 mutation
+NGS_MYC	MYC mutation
+NGS_KMT2C	KMT2C mutation
+NGS_OTX2	OTX2 mutation
+NGS_GSE1	GSE1 mutation
+NGS_KMT2D	KMT2D mutation
+NGS_KDM6A	KDM6A mutation
+NGS_TBR1	TBR1 mutation
+NGS_SMO SMO mutation
+NGS_CREBBP	CREBBP mutation
+NGS_CTDNEP1	CTDNEP1 mutation
+NGS_CCND2	CCND2 mutation
+NGS_1Q	1q cytogenetics
+NGS_3Q	3q cytogenetics
+NGS_6P	6p cytogenetics
+NGS_6Q	6q cytogenetics
+NGS_7P	7p cytogenetics
+NGS_7Q	7q cytogenetics
+NGS_8P	8p cytogenetics
+NGS_8Q	8q cytogenetics
+NGS_9P	9p cytogenetics
+NGS_9Q	9q cytogenetics
+NGS_10Q	10q cytogenetics
+NGS_11P	11p cytogenetics
+NGS_11Q	11q cytogenetics
+NGS_14Q	14q cytogenetics
+NGS_16Q	16q cytogenetics
+NGS_17P	17p cytogenetics
+NGS_17Q	17q cytogenetics
+NGS_18P	18p cytogenetics
+NGS_18Q	18q cytogenetics
+NGS_21Q	21q cytogenetics
+G3_MYCAMP_OR_ISO17	Did patient have MYC amplification and/or Isochromosome 17?
+G4_CHR11LOSS_OR_CHR17G AIN	Did patient have chromosome 11 loss or chromosome 17 gain?
+INISOCOMPARISON	Was patient included in the comparison of isotretinoin treatment arms performed in 2015?
+FORISOCOMP_EFS	EFS duration (in days) used for the comparison of isotretinoin treatment arms performed in 2015
+FORISOCOMP_EFSCEN	EFS censor variable used for the comparison of isotretinoin treatment arms performed in 2015
+FORISOCOMP_CARBOGROUP	Carboplatin group used for the comparison of isotretinoin treatment arms performed in 2015
+FORISOCOMP_ISOGROUP	Isotretinoin group used for the comparison of isotretinoin treatment arms performed in 2015
+FORISOCOMP_STRATUM	Study stratum used for the comparison of isotretinoin treatment arms performed in 2015
+TOX_IND_INDENOMINATOR	Was patient included in the denominator for the assessment of grade 3+ toxicity during induction?
+TOX_M123_INDENOMINATOR	Was patient included in the denominator for the assessment of grade 3+ toxicity during maintenance 1-3?
+TOX_M456_INDENOMINATOR	Was patient included in the denominator for the assessment of grade 3+ toxicity during maintenance 4-6?
+TOX_IND_ANEMIA_INDC	Did patient have grade 3 or higher anemia during induction?
+TOX_IND_ANOREXIA_INDC	Did patient have grade 3 or higher anorexia during induction?
+TOX_IND_FEBRILENEUTROPE NIA_INDC	Did patient have grade 3 or higher febrile neutropenia during induction?
+TOX_IND_HEARINGIMPAIRED _INDC	Did patient have grade 3 or higher hearing impairment during induction?
+TOX_IND_HYPOKALEMIA_IN DC	Did patient have grade 3 or higher hypokalemia during induction?
+TOX_IND_HYPOPHOSPHATE MIA_INDC	Did patient have grade 3 or higher hypophosphatemia during induction?
+TOX_IND_INFECTIONOTHER_I NDC	Did patient have grade 3 or higher infections and infestations during induction?
+TOX_IND_LYMPHOCYTECOU NT_INDC	Did patient have grade 3 or higher lymphocyte count decrease during induction?
+TOX_IND_NAUSEA_INDC	Did patient have grade 3 or higher nausea during induction?
+TOX_IND_NEUTROPHILCOUNT _INDC	Did patient have grade 3 or higher neutrophil count decrease during induction?
+TOX_IND_PAIN_INDC	Did patient have grade 3 or higher pain during induction?
+TOX_IND_PERIPHERALMOTOR N_INDC	Did patient have grade 3 or higher peripheral motor neuropathy during induction?
+TOX_IND_PLATELETCOUNT_IN DC	Did patient have grade 3 or higher platelet count decrease during induction?
+TOX_IND_SEPSIS_INDC	Did patient have grade 3 or higher sepsis during induction?
+TOX_IND_VOMITING_INDC	Did patient have grade 3 or higher vomiting during induction?
+TOX_IND_WEIGHTLOSS_IND C	Did patient have grade 3 or higher weight loss during induction?
+TOX_IND_WHITEBLOODCELL _INDC	Did patient have grade 3 or higher white blood cell decrease during induction?
+TOX_M123_ANEMIA_INDC	Did patient have grade 3 or higher anemia during maintenance 1-3?
+TOX_ M123_ANOREXIA_INDC	Did patient have grade 3 or higher anorexia during maintenance 1-3?
+TOX_ M123_FEBRILENEUTROPENIA_INDC	Did patient have grade 3 or higher febrile neutropenia during maintenance 1-3?
+TOX_ M123_HEARINGIMPAIRED_INDC	Did patient have grade 3 or higher hearing impairment during maintenance 1-3?
+TOX_ M123_HYPOKALEMIA_INDC	Did patient have grade 3 or higher hypokalemia during maintenance 1-3?
+TOX_M123_HYPOPHOSPHATEMIA_INDC	Did patient have grade 3 or higher hypophosphatemia during maintenance 1-3?
+TOX_ M123_INFECTIONOTHER_INDC	Did patient have grade 3 or higher infections and infestations during maintenance 1-3?
+TOX_ M123_LYMPHOCYTECOUNT_INDC	Did patient have grade 3 or higher lymphocyte count decrease during maintenance 1-3?
+TOX_ M123_NAUSEA_INDC	Did patient have grade 3 or higher nausea during maintenance 1-3?
+TOX_ M123_NEUTROPHILCOUNTINDC	Did patient have grade 3 or higher neutrophil count decrease during maintenance 1-3?
+TOX_ M123_PAIN_INDC	Did patient have grade 3 or higher pain during maintenance 1-3?
+TOX_ M123_PERIPHERALMOTORN_INDC	Did patient have grade 3 or higher peripheral motor neuropathy during maintenance 1-3?
+TOX_ M123_PLATELETCOUNT_INDC	Did patient have grade 3 or higher platelet count decrease during maintenance 1-3?
+TOX_ M123_SEPSIS_INDC	Did patient have grade 3 or higher sepsis during maintenance 1-3?
+TOX_ M123_VOMITING_INDC	Did patient have grade 3 or higher vomiting during maintenance 1-3?
+TOX_ M123_WEIGHTLOSS_INDC	Did patient have grade 3 or higher weight loss during maintenance 1-3?
+TOX_ M123_WHITEBLOODCELL_INDC	Did patient have grade 3 or higher white blood cell decrease during maintenance 1-3?
+TOX_M456_ANEMIA_INDC	Did patient have grade 3 or higher anemia during maintenance 4-6?
+TOX_ M456_ANOREXIA_INDC	Did patient have grade 3 or higher anorexia during maintenance 4-6?
+TOX_ M456_FEBRILENEUTROPENIA_INDC	Did patient have grade 3 or higher febrile neutropenia during maintenance 4-6?
+TOX_ M456_HEARINGIMPAIRED_INDC	Did patient have grade 3 or higher hearing impairment during maintenance 4-6?
+TOX_ M456_HYPOKALEMIA_INDC	Did patient have grade 3 or higher hypokalemia during maintenance 4-6?
+TOX_M456_HYPOPHOSPHATE MIA_INDC	Did patient have grade 3 or higher hypophosphatemia during maintenance 4-6?
+TOX_ M456_INFECTIONOTHER_INDC	Did patient have grade 3 or higher infections and infestations during maintenance 4-6?
+TOX_ M456_LYMPHOCYTECOUNT_INDC	Did patient have grade 3 or higher lymphocyte count decrease during maintenance 4-6?
+TOX_ M456_NAUSEA_INDC	Did patient have grade 3 or higher nausea during maintenance 4-6?
+TOX_ M456_NEUTROPHILCOUNT_INDC	Did patient have grade 3 or higher neutrophil count decrease during maintenance 4-6?
+TOX_ M456_PAIN_INDC	Did patient have grade 3 or higher pain during maintenance 4-6
+TOX_ M456_PERIPHERALMOTORN_INDC	Did patient have grade 3 or higher peripheral motor neuropathy during maintenance 4-6?
+TOX_ M456_PLATELETCOUNT_INDC	Did patient have grade 3 or higher platelet count decrease during maintenance 4-6?
+TOX_ M456_SEPSIS_INDC	Did patient have grade 3 or higher sepsis during maintenance 4-6?
+TOX_ M456_VOMITING_INDC	Did patient have grade 3 or higher vomiting during maintenance 4-6?
+TOX_ M456_WEIGHTLOSS_INDC	Did patient have grade 3 or higher weight loss during maintenance 4-6?
+TOX_ M456_WHITEBLOODCELL_INDC	Did patient have grade 3 or higher white blood cell decrease during maintenance 4-6?
+TOX_G3ANAPHYLAXIS_INDC	Did patient have grade 3 anaphylaxis?
+INQOLANALYSES	Was patient included in the analysis of quality of life/neurocognitive outcomes?
+QOL_PAYMENTMETHOD	Payment method
+QOL_T1_INDC	Did the patient have a quality of life/neurocognitive assessment at time 1?
+QOL_T1_IQ	Intelligence quotient (IQ) at time 1
+QOL_T1_PSI	Processing speed index (PSI) at time 1
+QOL_T1_GEC	Global executive functioning score at time 1
+QOL_T2_INDC	Did the patient have a quality of life/neurocognitive assessment at time 2?
+QOL_T2_IQ	IQ at time 2
+QOL_T2_PSI	PSI at time 2
+QOL_T2_GEC	Global executive functioning score at time 2
+QOL_T3_INDC	Did the patient have a quality of life/neurocognitive assessment at time 3?
+QOL_T3_IQ	IQ at time 3
+QOL_T3_PSI	PSI at time 3
+QOL_T3_GEC	Global executive functioning score at time 3
+QOL_IQ_T2MINUST1	Difference of IQ between time 1 and time 2
+QOL_IQ_T3MINUST1	Difference of IQ between time 1 and time 3
+QOL_IQ_T3MINUST2	Difference of IQ between time 2 and time 3
+QOL_PSI_T2MINUST1	Difference of PSI between time 1 and time 2
+QOL_PSI_T3MINUST1	Difference of PSI between time 1 and time 3
+QOL_PSI_T3MINUST2	Difference of PSI between time 2 and time 3
+QOL_GEC_T2MINUST1	Difference of global executive functioning score between time 1 and time 2
+QOL_GEC_T3MINUST1	Difference of global executive functioning score between time 1 and time 3
+QOL_GEC_T3MINUST2	Difference of global executive functioning score between time 2 and time 3

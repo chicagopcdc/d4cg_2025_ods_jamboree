@@ -1,0 +1,30 @@
+TARGET USI	Patient Identifier	2003301v3.0
+Gender	Person Gender Text Type	2200604v3.0
+Race	Race Category Text	2192199
+Ethnicity	Ethnic Group Category Text	2192217v2.0
+Age at Diagnosis in Days	Patient Diagnosis Age Day Value	3225640
+First Event	Study End Point Event Type	3070936
+Event Free Survival Time in Days	Study End Point Event Occurrence Day Count	3229334
+Vital Status	Participant Vital Status Type	2847330
+Overall Survival Time in Days	Diagnosis To Last Communication Contact Time Day Count	3226269
+Year of Diagnosis	Year of Diagnosis	2896960
+Year of Last Follow Up	Year of Last Follow Up	4670951
+Protocol	Clinical Trials Cooperative Group Protocol Name Code	3070909v2.0
+Disease at diagnosis	Metastatic status at diagnosis	3438571
+Metastasis site	Metastasis site(s) at diagnosis	3438570
+Primary tumor site	Location of primary tumor	3438568
+Specific tumor site	Osteosarcoma Primary Tumor Specific Anatomic Site	3438569
+Specific tumor side	Side for location of primary tumor	827
+Specific tumor region	Region of bone for location of primary tumor	2182367
+Definitive Surgery	Type of definitive surgery	3438577
+Primary site progression	At initial relapse, was there progression at primary tumor site?	3438578
+Site of initial relapse	Initial Relapse Not Primary Anatomic Site	3442092
+Time to first relapse in days	Time from enrollment to first relapse measured in days	3442093
+Time to first enrollment on relapse protocol	Time from primary enrollment to enrollment on first secondary protocol measured in days	3442096
+Time to first SMN in days	Time from enrollment to first SMN measured in days	3442097
+Time to death in days	Time from enrollment to death measured in days	3442159
+Histologic response	Histologic Response Post Neoadjuvant Therapy Necrosis Percent Category	3438584
+Percent necrosis at Definitive Surgery	Histologic response to neoadjuvant therapy as percent necrosis (numeric)	3438590
+Relapse Type	Osteosarcoma Relapse Type	4635671
+Therapy	The type of chemotherapy used for the osteosarcoma patient for initial treatment until relapse	62615v3.0
+Comment	Research Comments Text	797v5.0

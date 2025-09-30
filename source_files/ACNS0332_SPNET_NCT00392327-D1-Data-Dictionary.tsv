@@ -1,0 +1,58 @@
+VARNAME	VARDESC
+USI	Universal Specimen Identifier (USI) / patient identifier
+ACNS0332STRATUM	Study Stratum M+ SPNET M0 SPNET with >1.5 cm_ residual M0 Supratentorial PNET with < 1.5 cm_ residual
+DXAGE_YRS	Age at diagnosis in years
+ONAGE_YRS	Age at study enrollment in years
+SEX	Sex M=Male F=Female
+RACE	Race American Indian or Alaska Native Asian Black or African American Unknown White
+ETHNICITY	Ethnicity Hispanic or Latino Not Hispanic or Latino Unknown
+MSTAGE	M-stage M0 M1 M2 M3
+MSTATUS	Metastatic Status M+: metastatic M0: non-metastatic
+INFRAINVINDC	Indicator variable for infratentorial involvement 0=No; patient did not have infratentorial involvement 1=Yes; patient had infratentorial involvement
+PERFSTATUS_TYPE	Performance Status type Karnofsky Lansky
+PERFSTATUS_SCOREN	Performance Status Score
+SITEOFORIGIN_GH	Site of Origin Note: Site of origin data were available only for patients who were phenotyped [where PhenotypedIndc=1]. The other patients have SiteOfOrigin_GH equal to Òn/aÓ.
+PINEALINDC_GH	Indicator variable for pineal involvement Note: These data were available only for patients who were phenotyped [where PhenotypedIndc=1]. 0=No; patient was phenotyped and did not have pineal involvement 1=Yes; patient was phenotyped and had pineal involvement -9=Patient was not phenotyped and data were not provided/available
+CONSENTINDC	Indicator for whether or not the patient provided consent for biology studies 0=No; patient did not provide consent 1=Yes; patient provided consent
+SLIDES5INDC	This variable denotes which patients had at least 5 slides available for DNA extraction. 1=Yes; patient had at least 5 slides available for DNA extraction 0=No; patient had less than 5 slides available for DNA extraction -9=not applicable; patient did not provide consent for biology studies
+PHENOTYPEDINDC	Indicator Variable for whether the patient was phenotyped or not 1=Yes 0=No
+METHPREDICTION	Methylation Prediction Note: This variable equals ÒN/AÓ for patients who were not phenotyped [where PhenotypedIndc=0].
+SUBTYPE	Methylation Prediction as classified into one of the following: ATRT EP GBM (=HGG) Pineal region tumors/Other supratentorial embryonal tumors Data not available
+GROUP_ST3	Methylation Prediction as classified into one of the following: ATRT HGG PBL RELA+ EP Supratentorial EP N/A (for patients who were not phenotyped [PhenotypedIndc=0]) * This variable may be used for purposes of reproducing Supplemental Table 3. *
+ANALYSISGROUP	"Analysis Group HGG: patients with a molecular diagnosis of high-grade glioma sET/PBL: patients with molecularly diagnosed supratentorial embryonal tumors without other specification or pineoblastomas Note: The variable is blank/missing for patients who were not phenotyped or for patients who were phenotyped but did not fall into one of the above two categories (for example, ATRT patients)."
+PBORET	"PB or ET For patients in the sET/PBL analysis group above (variable #21), this variable further subsets patients into one of the following: PB: molecularly diagnosed pineoblastoma ET: molecularly diagnosed supratentorial embryonal tumors without other specification * This variable may be used for purposes of reproducing Supplemental Figure 4. *Note: The variable was provided only for patients with molecularly diagnosed supratentorial embryonal tumors without other specification or pineoblastomas [AnalysisGroup=ÓsET/PBLÓ]."
+CENTRALREVDX_GH	Central review diagnosis based on central pathology review Note: This variable equals ÒN/AÓ for patients who were not phenotyped [PhenotypedIndc=0]. * This variable may be used for purposes of reproducing Table 1. *
+CENTRALREVDXMATCH	Indicator for whether the central review pathology diagnosis was consistent with the methylation subgroup (used to reproduce results in Table 1) 1=Yes 0=No -9=not applicable; patient was not phenotyped
+TREATMENTGROUP	Treatment Group Regimen A Regimen B Regimen C Regimen D
+CARBOINDICATOR	Variable denoting whether the patient got carboplatin or not No Carboplatin Carboplatin
+ISOTRETINOININDC	Variable denoting whether the patient got Isotretinoin or not No Isotretinoin Isotretinoin
+FU	Duration of follow-up (in years) Note: Patients still alive and event-free were included in the calculation of median follow-up and range for the overall patient population.
+OS	Overall survival: days from enrollment to death date or date of last follow-up
+OSCEN	Censor indicator for overall survival 1 if patient had the event of interest (death) 0 for survivors
+EFS	Event-free survival: days from enrollment to date of first event or date of last follow-up for patients without events
+EFSCEN	Censor indicator for event-free survival (EFS) 1=patient had the event of interest 0=patient was event-free/censored
+FIRSTEVENT	Type of first event: Death RL/PD (relapse/progression) SM (second malignancy) n/a (patient did not have an event)
+RLFAILPATTERN	Failure pattern for patients with relapsed or progressive disease: Distant Local L+D (local+distant) n/a (patient did not have relapsed/progressive disease)
+DEATH_OTHERSPEC	"For patients with non-disease related deaths, this variable details the cause of death."
+SM_HIST	"For patients with second malignancy, this variable details the histology of the second malignancy."
+AEINDC_BLOOD	Indicator for whether each patient had a grade 3 or higher adverse event in this adverse event (AE) category [blood and lymphatic system disorders] (used for Supplemental Table 2) 1=Yes 0=No
+AEINDC_CARDIAC	Indicator for whether each patient had a grade 3 or higher adverse event in this AE category [cardiac disorders] (used for Supplemental Table 2) 1=Yes 0=No
+AEINDC_EAR	Indicator for whether each patient had a grade 3 or higher adverse event in this AE category [ear and labyrinth disorders] (used for Supplemental Table 2) 1=Yes 0=No
+AEINDC_GI	Indicator for whether each patient had a grade 3 or higher adverse event in this AE category [gastrointestinal disorders] (used for Supplemental Table 2) 1=Yes 0=No
+AEINDC_GENERAL	Indicator for whether each patient had a grade 3 or higher adverse event in this AE category [general disorders] (used for Supplemental Table 2) 1=Yes 0=No
+AEINDC_IMMUNE	Indicator for whether each patient had a grade 3 or higher adverse event in this AE category [immune system disorders] (used for Supplemental Table 2) 1=Yes 0=No
+AEINDC_INFECTION	Indicator for whether each patient had a grade 3 or higher adverse event in this AE category [infections and infestations] (used for Supplemental Table 2) 1=Yes 0=No
+AEINDC_INJURY	"Indicator for whether each patient had a grade 3 or higher adverse event in this AE category [injury, poisoning and procedural complications] (used for Supplemental Table 2) 1=Yes 0=No"
+AEINDC_INVESTIGATIONS	Indicator for whether each patient had a grade 3 or higher adverse event in this AE category [investigations] (used for Supplemental Table 2) 1=Yes 0=No
+AEINDC_METABOLISM	Indicator for whether each patient had a grade 3 or higher adverse event in this AE category [metabolism and nutrition disorders] (used for Supplemental Table 2) 1=Yes 0=No
+AEINDC_MSK	Indicator for whether each patient had a grade 3 or higher adverse event in this AE category [musculoskeletal and connective tissue disorders] (used for Supplemental Table 2) 1=Yes 0=No
+AEINDC_NEOPLASMS	"Indicator for whether each patient had a grade 3 or higher adverse event in this AE category [neoplasms benign, malignant and unspecified] (used for Supplemental Table 2) 1=Yes 0=No"
+AEINDC_NERVOUS	Indicator for whether each patient had a grade 3 or higher adverse event in this AE category [nervous system disorders] (used for Supplemental Table 2) 1=Yes 0=No
+AEINDC_PSYCH	Indicator for whether each patient had a grade 3 or higher adverse event in this AE category [psychiatric disorders] (used for Supplemental Table 2) 1=Yes 0=No
+AEINDC_RENAL	Indicator for whether each patient had a grade 3 or higher adverse event in this AE category [renal and urinary disorders] (used for Supplemental Table 2) 1=Yes 0=No
+AEINDC_REPRODUCTIVE	Indicator for whether each patient had a grade 3 or higher adverse event in this AE category [reproductive system and breast disorders] (used for Supplemental Table 2) 1=Yes 0=No
+AEINDC_RESPIRATORY	"Indicator for whether each patient had a grade 3 or higher adverse event in this AE category [respiratory, thoracic and mediastinal disorders] (used for Supplemental Table 2) 1=Yes 0=No"
+AEINDC_SKIN	Indicator for whether each patient had a grade 3 or higher adverse event in this AE category [skin and subcutaneous tissue disorders] (used for Supplemental Table 2) 1=Yes 0=No
+AEINDC_SURGICAL	Indicator for whether each patient had a grade 3 or higher adverse event in this AE category [surgical and medical procedures] (used for Supplemental Table 2) 1=Yes 0=No
+AEINDC_VASCULAR	Indicator for whether each patient had a grade 3 or higher adverse event in this AE category [vascular disorders] (used for Supplemental Table 2) 1=Yes 0=No
+SECPATHREV_INDC	An indicator variable for whether the patient was selected for a second central pathology review (10 patients were selected for pathology re-review). 1=Yes 0=No

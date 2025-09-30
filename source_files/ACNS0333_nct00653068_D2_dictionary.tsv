@@ -1,0 +1,6 @@
+VARNAME	VARDESC
+USI_PatientIDÊ	Unique Patient Identifier
+PERIOD	ACNS0333 Study Period
+AESOC	Adverse Event System Organ Class (SOC)
+AETERM	Adverse Event Term CTCAEv4
+AEI	Adverse Event Grade CTCAEv4 grade 4+ or Ototoxicity (grade 3 hearing impaired) Experienced

@@ -1,0 +1,45 @@
+TARGET USI	Patient Identifier	2003301v3.0
+Gender	Person Gender Text Type	2200604
+Race	Race Category Text	2192199
+Ethnicity	Ethnic Group Category Text	2192217v2.0
+Age at Diagnosis in Days	Patient Age at Diagnosis	3225640
+First Event	Study End Point Event Type	3070936v2.0
+Event Free Survival Time in Days	Study End Point Event Occurrence Day Count	3229334
+Vital Status	Participant Vital Status Type	2847330
+Overall Survival Time in Days	Diagnosis To Last Communication Contact Time Day Count	3226269
+Year of Diagnosis	Year of Diagnosis	2896960
+Year of Last Follow Up	Year of Last Follow Up	4670951
+Protocol	Study	3226370
+WBC at Diagnosis	Laboratory Procedure Leukocyte Result Specified Value	58312
+CNS Status at Diagnosis	Central Nervous System Disease At Diagnosis Leukemia Status	3228397
+Testicular Involvement	Testicular Leukemia Present Indicator	3228401
+MRD Day 8	Minimal Residual Disease (MRD) Day 8 Induction Therapy Status Text	3235738
+MRD Day 8 Sensitivity	Sensitivity of Minimal Residual Disease (MRD) Day 8 Induction Therapy Status Text	4787968
+MRD Day 29	Minimal Residual Disease (MRD) Day 29 Induction Therapy Bone Marrow Status Text	3235766
+MRD Day 29 Sensitivity	Sensitivity of Minimal Residual Disease (MRD) Day 29 Induction Therapy Status Text	4787969
+MRD Day 43	Minimal Residual Disease (MRD) Day 43 Induction Therapy Bone Marrow Status Text	3235767
+MRD Day 43 Sensitivity	Sensitivity of Minimal Residual Disease (MRD) Day 43 Induction Therapy Status Text	4787971
+MRD End Consolidation	Minimal Residual Disease (MRD) End Consolidation Therapy Bone Marrow Status Text	3235768
+MRD End Consolidation Sensitivity	Sensitivity of Minimal Residual Disease (MRD) End Consolidation Induction Therapy Status Text	4787972
+Bone Marrow Site of Relapse	Recurrent Disease Bone Marrow Present Indicator	4630231
+CNS Site of Relapse	Recurrent Disease Central Nervous System Present Indicator	2979382
+Testes Site of Relapse	Recurrent Disease Testis Present Indicator	4630244
+Other Site of Relapse	Recurrent Disease Other Anatomic Site Present Specify Text	2980333
+ETV6 RUNX1 Fusion Status	ETV6 RUNX1 Fusion Molecular Genetic Technique Or Cytogenetic Analysis Detection Status Text	3229394v2.0
+TRISOMY 4 10 Status	Cytogenetic Abnormality Simultaneous Trisomy of Chromosomes 4 and 10 Status Text	3234625
+MLL Status	MLL Gene Fluorescence in situ Hybridization Detection Status Text	3229400
+TCF3 PBX1 Status	TCF3-PBX1 Fusion Protein Expression Molecular Genetic Technique Or Cytogenetic Analysis Detection Status Text	3230398v2.0
+BCR ABL1 Status	BCR-ABL1 Fusion Protein Expression Molecular Genetic Technique Or Cytogenetic Analysis Detection Status Text	3230402
+BMA Blasts Day 8	Laboratory Procedure Day 8 Induction Therapy Bone Marrow Blast Result Percentage Value 	3235782
+BMA Blasts Day 15	Laboratory Procedure Day 15 Induction Therapy Bone Marrow Blast Result Percentage Value	3235797
+BMA Blasts Day 29	Laboratory Procedure Day 29 Induction Therapy Bone Marrow Blast  Result Percentage Value	3235798
+BMA Blasts Day 43	Laboratory Procedure Day 43 Induction Therapy Bone Marrow Blast Result Percentage Value	3235799
+Karyotype	Cytogenetic Analysis Leukemic Cell Karyotype Text	3230408
+Down Syndrome	Patient Diagnosis Down Syndrome Indicator	3230411
+DNA Index	Laboratory Procedure DNA Index Value	3230417
+Alternate Therapy	Alternate Therapy	2002990v3.0
+Alternate Therapy Other	Alternate Therapy Other	 61353v3.1 
+Cell of Origin	Acute Lymphoblastic Leukemia Cell Origin Type	4633600
+ALL Molecular Subtype	Acute Lymphoblastic Leukemia Molecular Pathology Subtype	4787952
+ALL Gene Expression Subtype	Acute Lymphoblastic Leukemia Gene Expression Subtype	4787967
+Comment	Research Comments Text	797v5.0
