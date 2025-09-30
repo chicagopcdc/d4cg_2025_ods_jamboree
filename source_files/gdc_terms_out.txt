@@ -23,8 +23,7 @@
 15745088	LONGNAME:Biospecimen Aliquot Volume|PREFERREDDEFINITION:The volume in microliters (ul) of the aliquot(s) derived from the analyte(s) shipped for sequencing and characterization.|DEC_CONCEPTS:Biospecimen Aliquot Volume
 15063661	LONGNAME:Molecular Specimen Type Text Name|PREFERREDDEFINITION:Text term that represents the kind of molecular specimen analyte.|DEC_CONCEPTS:Molecular Specimen Type Text Name
 15248244	LONGNAME:Molecular Analyte Identification Code|PREFERREDDEFINITION:A single letter code used to identify a type of molecular analyte.|DEC_CONCEPTS:Molecular Analyte Identification Code
-15248383	LONGNAME:Biospecimen Analyte Volume|PREFERREDDEFINITION:The volume in microliters (ul) of the analyte(s) shipped for sequencing and
- characterization.|DEC_CONCEPTS:Biospecimen Analyte Volume
+15248383	LONGNAME:Biospecimen Analyte Volume|PREFERREDDEFINITION:The volume in microliters (ul) of the analyte(s) shipped for sequencing and  characterization.|DEC_CONCEPTS:Biospecimen Analyte Volume
 6059599	LONGNAME:Anaplastic Lesion Present Indicator|PREFERREDDEFINITION:Yes/no/unknown/not reported indicator used to describe whether anaplasia was present at the time of diagnosis.|DEC_CONCEPTS:Anaplastic Lesion Present Indicator
 4925534	LONGNAME:Anaplastic Lesion Classification Category|PREFERREDDEFINITION:The text term used to describe the morphologic findings indicating the presence of a malignant cellular infiltrate characterized by the presence of large pleomorphic cells, necrosis, and high mitotic activity in a tissue sample.|DEC_CONCEPTS:Anaplastic Lesion Classification Category
 2902402	LONGNAME:Lymphoma B-Symptoms Medical Record Documented Indicator|PREFERREDDEFINITION:Text term to signify whether lymphoma B-symptoms are present as noted in the patient's medical record.|DEC_CONCEPTS:Lymphoma B-Symptoms Medical Record Documented Indicator

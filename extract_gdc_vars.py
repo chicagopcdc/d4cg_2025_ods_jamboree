@@ -8,7 +8,7 @@ with open("./source_files/gdc_terms.yaml", "r") as source_gdc:
                 if value['common']['termDef']['source'] == 'caDSR':
                     out_line = (str(value['common']['termDef']['cde_id']) + 
                         "\tLONGNAME:" + str(value['common']['termDef']['term']) + 
-                        "|PREFERREDDEFINITION:" + str(value['common']['description']) + 
+                        "|PREFERREDDEFINITION:" + str(value['common']['description']).replace("\n", " ") + 
                         "|DEC_CONCEPTS:"  + str(value['common']['termDef']['term']))
                     print(out_line)
                     out_file.write(out_line + "\n")
