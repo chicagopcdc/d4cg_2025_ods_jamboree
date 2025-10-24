@@ -11,9 +11,9 @@ def get_until_alpha_loop(s):
         result += char
     return result
 
-def chroma_lookup(infile, outfile, num_matches):
-    chroma_client = chromadb.PersistentClient("./chroma_db_cde")
-    collection = chroma_client.get_collection(name="cadsr_cde")
+def chroma_lookup(infile, outfile, num_matches, chroma_dir, chroma_coll_name):
+    chroma_client = chromadb.PersistentClient(chroma_dir)
+    collection = chroma_client.get_collection(chroma_coll_name)
 
     with open(infile, "r") as source_dd:
         with open(outfile, "w") as out_dd:
@@ -27,8 +27,8 @@ def chroma_lookup(infile, outfile, num_matches):
                 hdr += "match_distance_" + str(i+1) + "\t"
             out_dd.write(hdr + "match_position\tis_match\n")
             for row in tsv_reader:
-                print(str(row[2]) + ": " + str(row[1]))
-                src_cde_id = get_until_alpha_loop(str(row[2]))
+                print(str(row[0]) + ": " + str(row[1]))
+                src_cde_id = get_until_alpha_loop(str(row[0]))
                 matched_position = -1
                 results = collection.query(
                     query_texts=[row[1]],
@@ -57,12 +57,19 @@ def chroma_lookup(infile, outfile, num_matches):
 
 def main():
     parser = argparse.ArgumentParser(description="A script to lookup matching CDEs from a ChromaDB instance.")
-    parser.add_argument("-i", "--infile", type=str, default="", help="The input file to process.")
-    parser.add_argument("-o", "--outfile", type=str, default="", help="The output file to write.")
-    parser.add_argument("-n", "--num_matches", type=int, default=10, help="The number of CDEs to match.")
+    parser.add_argument("-i", "--infile", type=str, help="The input file to process.")
+    parser.add_argument("-o", "--outfile", type=str, help="The output file to write.")
+    parser.add_argument("-n", "--num_matches", type=int, help="The number of CDEs to match.")
+    parser.add_argument("-cd", "--chroma_dir", type=str, help="The relative path to the ChromaDB directory.")
+    parser.add_argument("-cn", "--chroma_coll_name", type=str, help="The name of the ChromaDB collection.")
     
     args = parser.parse_args()
-    chroma_lookup(args.infile, args.outfile, args.num_matches)
+
+    if not args.infile or not args.outfile or not args.num_matches or not args.chroma_dir or not args.chroma_coll_name:
+        parser.print_help()
+        exit(1)
+        
+    chroma_lookup(args.infile, args.outfile, args.num_matches, args.chroma_dir, args.chroma_coll_name)
 
 if __name__ == "__main__":
     main()
